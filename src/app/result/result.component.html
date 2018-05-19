@@ -1,0 +1,53 @@
+<mat-card class="example-card">
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+
+    <mat-card class="example-card">
+      <mat-card-content>
+        <li><a href="http://axionsoft.net/BurnBoys" target="_blank">Burn Boys</a></li>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="example-card">
+      <mat-card-content>
+        <li><a href="http://axionsoft.net/Grocery/" target="_blank">Grocery</a></li>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="example-card">
+      <mat-card-content>
+        <li><a href="http://axionsoft.net/Hotel/" target="_blank">Booking.com</a></li>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="example-card">
+      <mat-card-content>
+        <li><a href="http://axionsoft.net/pantheum/" target="_blank">Pantheum</a></li>
+      </mat-card-content>
+    </mat-card>
+
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <mat-card-content class="fullwidth">
+        <p>
+          <b>Text You Input To Analysis : </b> <br>{{text_to_analysis}}
+        </p>
+        <p>
+          <b>Sentiment Of Your Text : </b> <br>{{result}}
+        </p>
+        <p>
+          <b>probability OF Your Result Being {{result}} : </b> <br>{{probability}}
+        </p>
+      </mat-card-content>
+  </div>
+</mat-drawer-container>
+
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>Love My App</span>
+      <span class="example-spacer"></span>
+      <mat-icon class="example-icon" (click)="drawer.toggle()">favorite</mat-icon>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</mat-card>

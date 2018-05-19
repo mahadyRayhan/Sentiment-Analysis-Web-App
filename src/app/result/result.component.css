@@ -1,0 +1,46 @@
+p {
+  line-height: 20px;
+  padding: 10px;
+}
+example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+mat-icon{
+  cursor: pointer;
+}
+
+.example-container {
+  width: 450px;
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 20px;
+  padding-left: 0px;
+  margin-left: -10px;
+}
+
+.example-sidenav mat-card{
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.example-sidenav mat-card li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}

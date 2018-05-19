@@ -1,0 +1,10 @@
+.fullwidth{
+  width: 400px;
+  margin: 0px auto;
+}
+mat-card-content p {
+  margin-bottom: 30px;
+}
+mat-card-actions a {
+  margin-bottom: 20px;
+}
